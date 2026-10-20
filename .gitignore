@@ -1,0 +1,26 @@
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/
+data/patient_history.sqlite3
+
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment secrets
+.env
+
+# Local patient history database
+data/patient_history.sqlite3
+
+# Test cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/

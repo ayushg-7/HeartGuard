@@ -1,0 +1,69 @@
+{
+  "rows": 4981,
+  "feature_count": 10,
+  "feature_columns": [
+    "gender",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "ever_married",
+    "work_type",
+    "Residence_type",
+    "avg_glucose_level",
+    "bmi",
+    "smoking_status"
+  ],
+  "removed_identifier_columns": [],
+  "missing_values": {
+    "gender": 0,
+    "age": 0,
+    "hypertension": 0,
+    "heart_disease": 0,
+    "ever_married": 0,
+    "work_type": 0,
+    "Residence_type": 0,
+    "avg_glucose_level": 0,
+    "bmi": 0,
+    "smoking_status": 0
+  },
+  "target_column": "stroke",
+  "class_counts": {
+    "0": 4733,
+    "1": 248
+  },
+  "class_percentages": {
+    "0": 95.0210801043967,
+    "1": 4.978919895603292
+  },
+  "categorical_values": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "ever_married": [
+      "No",
+      "Yes"
+    ],
+    "work_type": [
+      "Govt_job",
+      "Private",
+      "Self-employed",
+      "children"
+    ],
+    "Residence_type": [
+      "Rural",
+      "Urban"
+    ],
+    "smoking_status": [
+      "Unknown",
+      "formerly smoked",
+      "never smoked",
+      "smokes"
+    ]
+  },
+  "train_records": 3984,
+  "test_records": 997,
+  "random_state": 42,
+  "test_size": 0.2,
+  "threshold_selection": "F1-maximizing threshold on a stratified 20% slice of training data"
+}
