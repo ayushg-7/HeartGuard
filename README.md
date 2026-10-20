@@ -62,7 +62,6 @@ With a strongly imbalanced target, accuracy alone can be misleading. Review reca
 - **Heart Stroke Prediction:** validated form and stacking-model probability/result.
 - **Live Heart Monitoring:** software-only synthetic ECG-style waveform with normal-range, elevated-rate, and low-rate scenarios; start, pause, reset, recent simulated readings, heart-rate trend, and configurable informational range alerts. Select a dataset row or enter a profile for a side-by-side educational dashboard containing patient features, the saved stacking-model output, and the separate simulated BPM.
 - **Patient Health History:** explicitly save prediction sessions locally, search/filter by date and predicted class, view full inputs and model output, confirm individual/all-record deletion, and export selected/all records as CSV. The SQLite database is created automatically; sessions are never saved unless **Save to History** is clicked.
-- **Synthetic & Batch Predictions:** generate 100, 500, or 1,000 synthetic profiles from dataset-observed categories and numeric ranges; download profiles and saved-model predictions; or upload a CSV for schema/value validation, batch prediction, and result download.
 - **Exploratory Data Analysis:** age, glucose, BMI, risk-group heart-stroke rates, and numeric correlations.
 - **Model Comparison:** actual holdout metrics, confusion matrices, ROC/PR curves, and stacking explanation.
 
