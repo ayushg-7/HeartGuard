@@ -2,6 +2,30 @@
 
 A Streamlit educational dashboard that inspects the provided `full_data.csv`, trains three baseline classifiers and a stacking classifier, and displays predictions and holdout evaluation results. It uses only the CSV included in `data/`; it does not fetch or substitute a dataset.
 
+
+## 📸 Project Screenshots
+
+### 1. Dashboard
+![Heart Guard Dashboard](screenshots/AIML1.png)
+
+Provides an interactive form for entering patient demographic, medical, and lifestyle information to generate a stroke prediction using the trained stacking machine learning model.
+
+### 2. Simulated ECG Monitoring
+![Stroke Prediction](screenshots/AIML2.png)
+
+Shows a simulated ECG-style waveform with heart-rate visualization, BPM readings, and monitoring controls. This feature demonstrates heart monitoring without requiring physical hardware.
+
+### 3. Displaying ECG Monitoring 
+![ECG Monitoring](screenshots/AIML3.png)
+
+Displays historical simulated BPM readings through an interactive trend chart and a table of recent readings, allowing users to observe changes during the monitoring session.
+
+### 4. Evaluation Metrics
+![ECG Monitoring](screenshots/AIML4.png)
+
+Displays the performance comparison of Logistic Regression, Random Forest, Gradient Boosting, and the Stacking Classifier using evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+
+
 ## Dataset inspected
 
 The supplied file contains 4,981 records and 11 columns:
